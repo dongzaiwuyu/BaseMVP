@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="App_Base_TextSize">16sp</dimen>
+    <dimen name="App_BaseSmall_TextSize">14sp</dimen>
+    <dimen name="App_BaseLarge_TextSize">18sp</dimen>
+    <dimen name="App_BaseTitle_TextSize">20sp</dimen>
+</resources>
