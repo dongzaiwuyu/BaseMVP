@@ -22,10 +22,6 @@ public class MainActivity extends BaseActivity<MainContract.IMainView, MainPrese
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
-        if(hasFocus)
-        {
-            presenter.test();
-        }
     }
 
     @Override

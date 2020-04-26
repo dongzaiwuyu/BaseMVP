@@ -6,11 +6,9 @@ import com.don.basemvp.view.IBaseView;
 public interface MainContract {
     interface IMainView extends IBaseView
     {
-
     }
 
     interface IMainPresenter extends IPresenter
     {
-        void test();
     }
 }
