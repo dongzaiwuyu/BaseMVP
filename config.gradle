@@ -1,0 +1,21 @@
+ext {
+    android = [
+            compileSdkVersion: 29,
+            buildToolsVersion: "29.0.3",
+            minSdkVersion    : 19,
+            targetSdkVersion : 29,
+    ]
+    dependencies = [
+            EventBusVersion       : '3.2.0',
+            PictureSelectorVersion: 'v2.5.2',
+            GlideVersion          : '4.11.0',
+            SmartRefreshVersion   : '1.1.2',
+            ButterknifeVersion    : '10.2.1',
+            RetrofitVersion       : '2.8.1',
+            LogInterceptorVersion : '3.8.1',
+            RxAndroidVersion      : '3.0.0',
+            GsonVersion           : '2.8.6',
+            SpinKitVersion        : '1.4.0',
+            CodeUtils             : '1.28.0'
+    ]
+}

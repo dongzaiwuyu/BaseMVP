@@ -10,8 +10,14 @@ import com.don.basemvp.R;
  */
 public class GlideConfig {
 
+    /**
+     * 默认圆角角度
+     */
     public static final int BaseRoundedCorners = 6;
 
+    /**
+     * 默认加载器
+     */
     public static RequestOptions BaseGlideOptions = new RequestOptions()
             .placeholder(R.mipmap.ic_launcher)
             .centerCrop()
