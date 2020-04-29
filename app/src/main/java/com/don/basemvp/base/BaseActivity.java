@@ -37,12 +37,12 @@ public abstract class BaseActivity<V extends IBaseView, P extends IPresenter> ex
 
     @Override
     protected void onDestroy() {
-        if (presenter != null) {
-            presenter.detachView();
-        }
         EventBus.getDefault().unregister(this);
         if (getLoadingPop().isShowing()) {
             getLoadingPop().dismiss();
+        }
+        if (presenter != null) {
+            presenter.detachView();
         }
         super.onDestroy();
     }
