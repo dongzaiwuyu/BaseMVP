@@ -38,6 +38,7 @@ public class GsonResponseBodyConverter<T> implements Converter<ResponseBody, T> 
             String msg = result.msg;
             if (errorCode != 1) {
                 //做自定义错误代码判断
+                throw new AppServerException(msg == null ? "未知错误" : msg, errorCode + "");
             }
             if (jsonReader.peek() != JsonToken.END_DOCUMENT) {
                 throw new JsonIOException("JSON document was not fully consumed.");
